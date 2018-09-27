@@ -10,12 +10,10 @@ export class Lista {
 	item: ListaItem[];
 
 	constructor(titulo: string) {
-
 		this.titulo = titulo;
 		this.terminada = false;
 		this.creadaEn = new Date();
 		this.item = [];
-		this.id = new Date().getTime(); //id dinamico 
+		this.id = new Date().getTime(); //id dinámico 
 	}
-
 }
